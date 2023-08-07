@@ -8,6 +8,7 @@
 4. [Data Augmentation](#data-augmentation)
 5. [Results](#results)
 6. [Misclassified Images](#misclassified-images)
+7. [Gradio Implementation & Results ](#gradio-implementation-&-results)
 
 ## 🎯 Problem Statement
 
@@ -61,8 +62,18 @@ Sample images,
 
 ## 📈 Results
 
-The model was trained for 24 epochs and achieved an test accuracy of 86.11 % on the test set. 
+The model was trained for 24 epochs and achieved an test accuracy of `86.11 %` on the test set. 
 
 ## ❌ Misclassified Images
 
 Few Samples of misclassified images can be seen in the folder `misclassified_images`  
+
+## Gradio Implementation & Results
+Gradio is the fastest way to demo your machine learning model with a friendly web interface so that anyone can use it, anywhere!. We use Huggingface Space to showcase our results with the help of Gradio in the backend.
+
+You can find the link to the app here: https://huggingface.co/spaces/PhaniNandula/demo1
+
+Below is the snapshot of the results shown in the app.
+![huggingface_result](https://github.com/phaninandula/ERA-Session12/assets/30425824/921a0f43-c8a0-4d88-b48b-c1eb0d76b209)
+
+
